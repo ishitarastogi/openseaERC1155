@@ -1,25 +1,25 @@
 {
-  "name": "SampleERC1155",
+  "name": "metadata-api-nodejs",
   "version": "1.0.0",
-  "description": "Sample ERC1155",
-  "main": "truffle-config.js",
+  "description": "Sample metadata API for crypto collectibles",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon ./server.js ",
+    "test": "node test.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/abcoathup/SampleERC1155.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/abcoathup/SampleERC1155/issues"
-  },
-  "homepage": "https://github.com/abcoathup/SampleERC1155#readme",
+  "author": "Alex Atallah <alex.atallah@opensea.io>",
+  "license": "MIT",
   "dependencies": {
-    "@openzeppelin/contracts": "^3.2.0",
-    "@truffle/hdwallet-provider": "^1.1.1",
-    "truffle": "^5.1.51"
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "moment": "^2.22.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "request": "^2.81.0",
+    "tape": "^4.7.0"
+  },
+  "engines": {
+    "node": "8.11.2"
   }
 }
