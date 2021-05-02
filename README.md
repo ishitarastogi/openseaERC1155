@@ -1,1 +1,2 @@
-# openseaERC1155
+# SampleERC1155
+Sample ERC1155
