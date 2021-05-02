@@ -1,6 +1,12 @@
 {
-  "description": "GameItems - Silver",
-  
-  "image": "https://gateway.pinata.cloud/ipfs/Qmd1QtjqEbcfqgp9HPFF6EDXT2XJZY7HUot4gCo8kvJAsM",
-  "name": "Silver"
+  "1": {
+    "description": "GameItems - Silver",
+    "image": "https://gateway.pinata.cloud/ipfs/Qmd1QtjqEbcfqgp9HPFF6EDXT2XJZY7HUot4gCo8kvJAsM",
+    "name": "Silver"
+  },
+  "2": {
+    "description": "GameItems - Gold",
+    "image": "https://gateway.pinata.cloud/ipfs/QmbTpDXtY123unAbEJo7DwYizFBgQhYXddGBUZebLnkj9k",
+    "name": "Gold"
+  }
 }
